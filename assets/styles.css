@@ -6,4 +6,7 @@ body {
   padding: 0;
 }
 nav {
+  font-family: "Times New Roman", Times, serif;
+  display: flex;
+  list-style-type: none;
 }
