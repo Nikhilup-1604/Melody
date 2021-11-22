@@ -10,3 +10,9 @@ nav {
   display: flex;
   list-style-type: none;
 }
+nav ul {
+  display: flex;
+  list-style-type: nine;
+  height: 89px;
+  background-color: black;
+}
