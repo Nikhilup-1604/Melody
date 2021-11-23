@@ -43,9 +43,9 @@ nav ul li {
   margin: 25px auto;
   border-radius: 12px;
   padding: 30px;
-  background-image: url(/assets/images/hpwithcandle.jpg);
+  background-image: url(/assets/images/hpblack.jpg);
   background-repeat: no-repeat;
-  background-size: 600px;
+  background-size: 950px 420px;
 }
 
 .bottom {
