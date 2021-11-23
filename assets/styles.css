@@ -39,18 +39,18 @@ nav ul li {
   color: white;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   display: flex;
-  width: 70%;
+  width: 60%;
   margin: 25px auto;
   border-radius: 12px;
   padding: 30px;
   background-image: url(/assets/images/hpblack.jpg);
   background-repeat: no-repeat;
-  background-size: 955px 420px;
+  background-size: 880px 420px;
 }
 
 .bottom {
   position: sticky;
-  height: 80px;
+  height: 85px;
   background-color: black;
   color: rgba(255, 255, 255, 0.842);
   bottom: 0;
@@ -66,4 +66,31 @@ nav ul li {
 }
 #myProgressBar {
   width: 75vw;
+}
+.songItemContainer {
+  margin-top: 20px;
+}
+.songItem {
+  height: 31px;
+  display: flex;
+  background-color: white;
+  width: 170%;
+  color: black;
+  font-size: 70%;
+  margin: 8px 0;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 15px;
+}
+.songItem img {
+  width: 22px;
+  margin: 0 23px;
+  border-radius: 10px;
+}
+
+.timeStamp {
+  margin: 0 10px;
+}
+.pointer {
+  cursor: pointer;
 }
