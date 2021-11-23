@@ -34,12 +34,23 @@ nav ul li {
 }
 
 .container {
-  min-height: 70vh;
+  min-height: 60vh;
+  background-color: black;
+  color: white;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  display: flex;
+  width: 70%;
+  margin: 25px auto;
+  border-radius: 12px;
+  padding: 30px;
+  background-image: url(/assets/images/hpwithcandle.jpg);
+  background-repeat: no-repeat;
+  background-size: 600px;
 }
 
 .bottom {
   position: sticky;
-  height: 130px;
+  height: 80px;
   background-color: black;
   color: rgba(255, 255, 255, 0.842);
   bottom: 0;
@@ -48,7 +59,11 @@ nav ul li {
   align-items: center;
   flex-direction: column;
 }
-
+.icons {
+  font-size: 40px;
+  margin-top: 12px;
+  cursor: pointer; /* whenever we point to the icons the mouse pointer converts into  a hand symbol */
+}
 #myProgressBar {
   width: 75vw;
 }
