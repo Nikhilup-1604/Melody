@@ -50,7 +50,7 @@ nav ul li {
 
 .bottom {
   position: sticky;
-  height: 85px;
+  height: 100px;
   background-color: black;
   color: rgba(255, 255, 255, 0.842);
   bottom: 0;
@@ -93,4 +93,12 @@ nav ul li {
 }
 .pointer {
   cursor: pointer;
+}
+.songInfo {
+  position: absolute;
+  left: 11vw;
+}
+.songInfo img {
+  opacity: 0;
+  transition: opacity 1s ease-out;
 }
