@@ -34,7 +34,7 @@ nav ul li {
 }
 
 .container {
-  min-height: 60vh;
+  height: 60vh;
   background-color: black;
   color: white;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
@@ -51,7 +51,7 @@ nav ul li {
 .bottom {
   position: sticky;
   height: 100px;
-  background-color: black;
+  background-color: darkslategrey;
   color: rgba(255, 255, 255, 0.842);
   bottom: 0;
   display: flex;
@@ -66,6 +66,7 @@ nav ul li {
 }
 #myProgressBar {
   width: 75vw;
+  cursor: pointer;
 }
 .songItemContainer {
   margin-top: 20px;
@@ -97,6 +98,7 @@ nav ul li {
 .songInfo {
   position: absolute;
   left: 11vw;
+  font-family: fantasy;
 }
 .songInfo img {
   opacity: 0;
